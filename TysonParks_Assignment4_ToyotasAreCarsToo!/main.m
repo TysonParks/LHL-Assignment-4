@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         Car *nissan = [[Car alloc] initWithModel:@"Rogue"];
-        
+        [nissan drive];
         
         
     }
