@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ADD50D282024494A00CF5CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD50D272024494A00CF5CB6 /* main.m */; };
 		ADD50D3320244A2700CF5CB6 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD50D3220244A2700CF5CB6 /* Car.m */; };
+		ADD50D3920244EA400CF5CB6 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD50D3820244EA400CF5CB6 /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		ADD50D272024494A00CF5CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADD50D3120244A2700CF5CB6 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		ADD50D3220244A2700CF5CB6 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		ADD50D3720244EA400CF5CB6 /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		ADD50D3820244EA400CF5CB6 /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				ADD50D272024494A00CF5CB6 /* main.m */,
 				ADD50D3120244A2700CF5CB6 /* Car.h */,
+				ADD50D3720244EA400CF5CB6 /* Toyota.h */,
+				ADD50D3820244EA400CF5CB6 /* Toyota.m */,
 				ADD50D3220244A2700CF5CB6 /* Car.m */,
 			);
 			path = "TysonParks_Assignment4_ToyotasAreCarsToo!";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD50D3920244EA400CF5CB6 /* Toyota.m in Sources */,
 				ADD50D3320244A2700CF5CB6 /* Car.m in Sources */,
 				ADD50D282024494A00CF5CB6 /* main.m in Sources */,
 			);

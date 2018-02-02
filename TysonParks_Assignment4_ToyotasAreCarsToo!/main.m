@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Car.h"
+#import "Toyota.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
