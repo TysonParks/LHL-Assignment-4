@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         [nissan drive];
         
         Toyota *toyota = [[Toyota alloc] init];
-        
+        [toyota drive];
         
         
     }
