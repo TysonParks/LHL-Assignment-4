@@ -17,6 +17,6 @@
 -(void)drive;
 
 // Custom initializers
--(instancetype)initWithModel:(NSString *)m:
+-(instancetype)initWithModel:(NSString *)m;
 
 @end
