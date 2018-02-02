@@ -12,12 +12,17 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        // Create Car object called 'nissan' and initialize it with model name 'Rogue'
         Car *nissan = [[Car alloc] initWithModel:@"Rogue"];
+        
+        // Call drive() method for 'nissan'
         [nissan drive];
         
+        // Create Toyota object called 'toyota' and initialize it with init
         Toyota *toyota = [[Toyota alloc] init];
-        [toyota drive];
         
+        // Call drive() method for 'toyota'
+        [toyota drive];
         
     }
     return 0;

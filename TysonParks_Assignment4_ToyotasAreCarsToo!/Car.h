@@ -10,13 +10,13 @@
 
 @interface Car : NSObject
 
-// Properties
+// Properties, model name of car
 @property NSString *model;
 
 // Methods
 -(void)drive;
 
-// Custom initializers
+// Custom initializer to include model name
 -(instancetype)initWithModel:(NSString *)m;
 
 @end

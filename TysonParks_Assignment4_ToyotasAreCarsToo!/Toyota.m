@@ -10,6 +10,8 @@
 
 @implementation Toyota
 
+// 'init' initializer that inherits custom initializer 'initWithModel' from the Car superclass
+// Set model to 'Prius' in init
 -(instancetype)init {
     return [super initWithModel:@"Prius"];
     }

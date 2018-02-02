@@ -10,7 +10,7 @@
 
 @implementation Car
 
-// Custom initializer initWithModel
+// Custom initializer initWithModel takes model name as string
 -(instancetype)initWithModel:(NSString *)m
 {
     self = [super init];
@@ -20,7 +20,7 @@
     return self;
 }
 
-// drive method prints out model
+// drive method prints out model name
 -(void)drive {
     NSLog(@"This car is a %@", self.model);
 }
