@@ -15,6 +15,9 @@ int main(int argc, const char * argv[]) {
         Car *nissan = [[Car alloc] initWithModel:@"Rogue"];
         [nissan drive];
         
+        Toyota *toyota = [[Toyota alloc] init];
+        
+        
         
     }
     return 0;
